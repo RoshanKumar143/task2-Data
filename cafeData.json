@@ -1,0 +1,307 @@
+db.cafeDetails.insert([
+    {
+        "cafe_id":1,    
+        "cafeName": "Hyderabad Brew Haven",
+        "location": "Banjara Hills, Hyderabad",
+        "location_id":1,
+        "contactNumber": "+91 88765 12340",
+        "email": "hyderabad.brew@example.com",
+        "website": "http://www.hyderabadbrewhaven.com",
+        "lowCostBeverages": [
+         {
+            "beverageName": "Classic Chai",
+            "category": "Tea",
+            "price": 50
+         },
+         {
+            "beverageName": "Filter Coffee",
+            "category": "Coffee",
+            "price": 60
+         },
+         {
+            "beverageName": "Masala Lemonade",
+            "category": "Mocktail",
+            "price": 80
+         }
+        ],
+        "highCostBeverages": [
+         {
+            "beverageName": "Single-Origin Espresso",
+            "category": "Coffee",
+            "price": 180
+         },
+         {
+            "beverageName": "Matcha Latte",
+            "category": "Tea",
+            "price": 150
+         },
+         {
+            "beverageName": "Signature Iced Mocha",
+            "category": "Coffee",
+            "price": 200
+         }
+        ],
+        "overallRating": 4.5,
+        "rating_text": "Very Good",
+        "image_gallery":[
+            "https://i.ibb.co/pxZd3Cm/tea-image.jpg",
+            "https://i.ibb.co/bBgCN3s/filter-coffee-image.jpg",
+            "https://i.ibb.co/VY0HJG0/Masala-Lemonade-mocktail-image.jpg",
+            "https://i.ibb.co/LNSzw7r/Single-Origin-Espresso-coffee-image.jpg",
+            "https://i.ibb.co/XzsVXQz/Matcha-Latte-tea-image.jpg",
+            "https://i.ibb.co/vvg3Ntb/Signature-Iced-Mocha-coffee-image.jpg"
+        ]
+    },
+
+    
+    {
+        "cafe_id":2,
+        "cafeName": "Hyderabad Delight Cafe",
+        "location": "Mehidipatnam, Hyderabad",
+        "location_id":2,
+        "contactNumber": "+91 98765 43210",
+        "email": "hyderabad.delight@example.com",
+        "website": "http://www.hyderabaddelightcafe.com",
+        "lowCostBeverages": [
+          {
+            "beverageName": "Chai",
+            "category": "Tea",
+            "price": 20
+          },
+          {
+            "beverageName": "Filter Coffee",
+            "category": "Coffee",
+            "price": 30
+          },
+          {
+            "beverageName": "Masala Lemonade",
+            "category": "Mocktail",
+            "price": 40
+          }
+        ],
+        "highCostBeverages": [
+          {
+            "beverageName": "Specialty Espresso",
+            "category": "Coffee",
+            "price": 120
+          },
+          {
+            "beverageName": "Blueberry Mint Mojito",
+            "category": "Mocktail",
+            "price": 150
+          },
+          {
+            "beverageName": "Single Estate Darjeeling Tea",
+            "category": "Tea",
+            "price": 100
+          }
+        ],
+        "overallRating": 3.5,
+        "rating_text": "Good",
+        "specialOffers": "Happy Hour: Buy one high-cost beverage and get a low-cost beverage for free!",
+        "image_gallery":[
+            "https://i.ibb.co/pxZd3Cm/tea-image.jpg",
+            "https://i.ibb.co/bBgCN3s/filter-coffee-image.jpg",
+            "https://i.ibb.co/VY0HJG0/Masala-Lemonade-mocktail-image.jpg",
+            "https://i.ibb.co/YbRZjkG/Specialty-Espresso-coffee-image.jpg",
+            "https://i.ibb.co/jzQ94kx/Blueberry-Mint-Mojito-mocktail-image.jpg",
+            "https://i.ibb.co/YfsS9Gf/Single-Estate-Darjeeling-Tea-tea-image.jpg"
+        ]
+    },
+
+
+
+    {
+        "cafe_id":3,    
+        "cafeName": "Hyderabad Coffee Haven",
+        "location": "HITEC City, Hyderabad",
+        "location_id":3,
+        "contactNumber": "+91 123 456 7890",
+        "email": "hyderabad.coffee@example.com",
+        "website": "http://www.hyderabadcoffeeheaven.com",
+        "lowCostBeverages": [
+          {
+            "name": "Regular Coffee",
+            "price": 50
+          },
+          {
+            "name": "Masala Chai",
+            "price": 40
+          },
+          {
+            "name": "Iced Tea",
+            "price": 60
+          }
+        ],
+        "highCostBeverages": [
+          {
+            "name": "Specialty Espresso",
+            "price": 120
+          },
+          {
+            "name": "Caramel Macchiato",
+            "price": 150
+          },
+          {
+            "name": "Matcha Latte",
+            "price": 180
+          }
+        ],
+        "overallRating": 4.7,
+        "rating_text": "Excellent",
+        "amenities": [
+          "Free Wi-Fi",
+          "Cozy Seating",
+          "Outdoor Terrace"
+        ],
+        "image_gallery":[
+            "https://i.ibb.co/tHxZ6R7/coffee-image.jpg",
+            "https://i.ibb.co/hZscsGh/masala-chai-image.jpg",
+            "https://i.ibb.co/61129cv/iced-tea-image.jpg",
+            "https://i.ibb.co/YbRZjkG/Specialty-Espresso-coffee-image.jpg",
+            "https://i.ibb.co/85ZbVQt/Caramel-Macchiato-image.jpg",
+            "https://i.ibb.co/XzsVXQz/Matcha-Latte-tea-image.jpg"
+        ]
+    },
+	  
+	  
+	  
+	{
+		"cafe_id":4,
+		"cafeName": "Java Junction Cafe",
+		"location": "Madhapur, Hyderabad",
+		"location_id":4,
+		"contactNumber": "+91 9876543210",
+		"comboPacks": [
+			{
+			  "name": "Morning Bliss Combo",
+			  "description": "Start your day right with this delightful combo.",
+			  "items": [
+				{
+				  "itemName": "Classic Breakfast Sandwich",
+				  "price": 120
+				},
+				{
+				  "itemName": "Hot Espresso",
+				  "price": 60
+				},
+				{
+				  "itemName": "Fresh Orange Juice",
+				  "price": 40
+				}
+			  ],
+			  "totalPrice": 220
+			},
+			{
+			  "name": "Afternoon Indulgence Combo",
+			  "description": "A perfect combo for a relaxing afternoon break.",
+			  "items": [
+				{
+				  "itemName": "Caprese Panini",
+				  "price": 150
+				},
+				{
+				  "itemName": "Iced Caramel Latte",
+				  "price": 80
+				},
+				{
+				  "itemName": "Chocolate Fudge Brownie",
+				  "price": 60
+				}
+			  ],
+			  "totalPrice": 290
+			},
+			{
+			  "name": "Evening Delight Combo",
+			  "description": "Unwind with this delightful evening combo.",
+			  "items": [
+				{
+				  "itemName": "Mushroom and Swiss Quiche",
+				  "price": 180
+				},
+				{
+				  "itemName": "Green Tea",
+				  "price": 50
+				},
+				{
+				  "itemName": "Fruit Salad Bowl",
+				  "price": 70
+				}
+			  ],
+			  "totalPrice": 300
+			}
+		]
+	},
+		
+		
+		
+	{
+		"cafe_id":5,
+		"cafeName": "Coffee Haven",
+		"location": "Jubilee Hills, Hyderabad",
+		"location_id":5,
+		"contactNumber": "+91 7890123456",
+		"comboPacks": [
+			{
+			  "comboName": "Morning Energizer",
+			  "description": "Kickstart your day with this energizing combo.",
+			  "items": [
+				{
+				  "itemName": "Classic Americano",
+				  "price": 80
+				},
+				{
+				  "itemName": "Butter Croissant",
+				  "price": 60
+				},
+				{
+				  "itemName": "Fresh Fruit Bowl",
+				  "price": 90
+				}
+			  ],
+			  "totalPrice": 230
+			},
+			{
+			  "comboName": "Afternoon Delight",
+			  "description": "A delightful combo to brighten up your afternoon.",
+			  "items": [
+				{
+				  "itemName": "Chicken Club Sandwich",
+				  "price": 120
+				},
+				{
+				  "itemName": "Iced Mocha",
+				  "price": 100
+				},
+				{
+				  "itemName": "Potato Wedges",
+				  "price": 70
+				}
+			  ],
+			  "totalPrice": 290
+			},
+			{
+			  "comboName": "Evening Relaxation",
+			  "description": "Unwind in the evening with this relaxing combo.",
+			  "items": [
+				{
+				  "itemName": "Caprese Salad",
+				  "price": 150
+				},
+				{
+				  "itemName": "Chai Latte",
+				  "price": 50
+				},
+				{
+				  "itemName": "Chocolate Truffle Cake",
+				  "price": 120
+				}
+			  ],
+			  "totalPrice": 320
+			}
+		]
+	}
+
+
+            
+])
