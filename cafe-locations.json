@@ -1,33 +1,40 @@
-db.location.insert(
+db.cafelocation(
 	[
+		
 		{
 			"location_id":1,
-			"location":"Banjara Hills, Hyderabad",
-			"land_mark":"Tv9",
-			"country_name":"India"
+			"location": "Himayatnagar, Hyderabad",
+			"land_mark":"AP State Housing Board",
+			"gallery":"https://i.ibb.co/sQCM8bN/Brew-Haven-Cafe.jpg",
+			"city" : "Hyderabad"
 		},
 		{
 			"location_id":2,
-			"location":"Mehidipatnam, Hyderabad",
-			"land_mark":"NMDC",
-			"country_name":"India"
+			"location": "Banjara Hills, Hyderabad",
+			"land_mark":"BNR Colony, Venkat Nagar",
+			"gallery":"https://i.ibb.co/NN5pT4P/The-Roastery-Coffee-House.jpg",
+			"city" : "Hyderabad"
 		},
 		{
 			"location_id":3,
-			"location":"HITEC City, Hyderabad",
-			"land_mark":"Cyber Towers"
-			"country_name":"India"
+			"location": "Red Hills, Hyderabad",
+			"land_mark":"Bazaar Ghat Main Road",
+			"galery":"https://i.ibb.co/zX1RfHr/Cafe-Niloufer-Bakers.jpg",
+			"city" : "Hyderabad"
 		},
 		{
 			"location_id":4,
-			"location": "Madhapur, Hyderabad",
-			"land_mark":"Image Hospital",
-			"country_name":"India"
+			"location": "Kondapur ,Hyderabad",
+			"land_mark":"Green Valley",
+			"gallery":"https://i.ibb.co/55RFdB8/Tofeel.jpg",
+			"city" : "Hyderabad"
 		},
 		{
 			"location_id":5,
-			"location": "Jubilee Hills, Hyderabad",
-			"country_name":"India"
+			"location": "Begumpet, Hyderabad",
+			"land_mark" : "Lifestyle Building",
+			"gallery":"https://i.ibb.co/gTM6XcH/Caffe-Coffee-Day.jpg",
+			"city" : "Hyderabad"
 		},	
 		
 		

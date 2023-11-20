@@ -1,13 +1,17 @@
-db.cafeDetails.insert([
+db.cafeDetails(
+[
     {
-        "cafe_id":1,    
-        "cafeName": "Hyderabad Brew Haven",
-        "location": "Banjara Hills, Hyderabad",
-        "location_id":1,
-        "contactNumber": "+91 88765 12340",
-        "email": "hyderabad.brew@example.com",
-        "website": "http://www.hyderabadbrewhaven.com",
-        "lowCostBeverages": [
+      "cafe_id":1,    
+      "cafeName": "Brew Haven Cafe",
+      "location": "Himayatnagar, Hyderabad",
+      "location_id":1,
+      "contactNumber": "+91 88765 12340",
+	  "Address": "H.no 3, 6-195/A, opp. Urdu hall, AP State Housing Board, Himayatnagar, Hyderabad, Telangana 500029",
+      "website": "https://www.swiggy.com/restaurants/brew-haven-cafe-amberpet-circle-no-16-himayath-nagar-hyderabad-774951",
+	  "orderThrough":"swiggy.com",
+	  "Timings" :  "Mon - Sun 10:00 am - 11:30 pm",
+	  "Type" : "Coffee Shops",
+      "lowCostBeverages": [
          {
             "beverageName": "Classic Chai",
             "category": "Tea",
@@ -41,8 +45,8 @@ db.cafeDetails.insert([
             "price": 200
          }
         ],
-        "overallRating": 4.5,
-        "rating_text": "Very Good",
+        "overallRating": 4.9,
+        "rating_text": "Excellent",
         "image_gallery":[
             "https://i.ibb.co/pxZd3Cm/tea-image.jpg",
             "https://i.ibb.co/bBgCN3s/filter-coffee-image.jpg",
@@ -55,14 +59,22 @@ db.cafeDetails.insert([
 
     
     {
-        "cafe_id":2,
-        "cafeName": "Hyderabad Delight Cafe",
-        "location": "Mehidipatnam, Hyderabad",
-        "location_id":2,
-        "contactNumber": "+91 98765 43210",
-        "email": "hyderabad.delight@example.com",
-        "website": "http://www.hyderabaddelightcafe.com",
-        "lowCostBeverages": [
+      "cafe_id":2,
+      "cafeName": "The Roastery Coffee House",
+      "location": "Banjara Hills, Hyderabad",
+      "location_id":2,
+      "contactNumber": "063095 90610",
+      "Address": " 418, 8-2, 287/12, Road No. 14, BNR Colony, Venkat Nagar, Banjara Hills, Hyderabad, Telangana 500034",
+      "website": "https://www.roasterycoffee.co.in/pages/hyderabad",
+      "orderThrough": "roasterycoffee.co.in, swiggy.com",
+      "Reservations": "roasterycoffee.co.in, dineout.co.in",
+      "Services" : "Dine-in, Home-Delivery, Delivery Services",
+      "Timings" :  "Mon - Sun 8:00 am - 11:45 pm",
+	  "Crowd" : "Family Friendly, Friendly Workspace, Good Place for Kids",
+	  "Amenities" :	"Wheel Chair Accessible Entrance And Exit, Wheel Chair Accessible Washroom, Wifi Available, Vegan Choices Available",
+      "Type" : "Cafe, Coffee Shops, Snack Bar, Take Away",
+      "Must Order" : "Chocolate Blend, mutton Lasagna", 
+      "lowCostBeverages": [
           {
             "beverageName": "Chai",
             "category": "Tea",
@@ -96,9 +108,9 @@ db.cafeDetails.insert([
             "price": 100
           }
         ],
-        "overallRating": 3.5,
-        "rating_text": "Good",
-        "specialOffers": "Happy Hour: Buy one high-cost beverage and get a low-cost beverage for free!",
+        "overallRating": 4.3,
+        "rating_text": "Very Good",
+        "specialOffers": "15% Off up to 75 with SBI Credit Card / Use code SBI75,  15% Off upto 100 with HDFC Bank PayZapp Card / Use code PAYZAPP100",
         "image_gallery":[
             "https://i.ibb.co/pxZd3Cm/tea-image.jpg",
             "https://i.ibb.co/bBgCN3s/filter-coffee-image.jpg",
@@ -113,12 +125,14 @@ db.cafeDetails.insert([
 
     {
         "cafe_id":3,    
-        "cafeName": "Hyderabad Coffee Haven",
-        "location": "HITEC City, Hyderabad",
+        "cafeName": "Cafe Nilofer & Bakers",
+        "location": "Red Hills, Hyderabad",
         "location_id":3,
-        "contactNumber": "+91 123 456 7890",
-        "email": "hyderabad.coffee@example.com",
-        "website": "http://www.hyderabadcoffeeheaven.com",
+        "contactNumber": "+(91)-8466868670",
+	    "Address": "Bazaar Ghat Main Road, Red Hills, Hyderabad - 500004",
+        "website": "https://cafeniloufer.com/",
+	    "Timings" :  "Mon - Sun 5:30 am - 1:00 am",	
+        "Type" : "Coffee Shops",
         "lowCostBeverages": [
           {
             "name": "Regular Coffee",
@@ -147,13 +161,8 @@ db.cafeDetails.insert([
             "price": 180
           }
         ],
-        "overallRating": 4.7,
-        "rating_text": "Excellent",
-        "amenities": [
-          "Free Wi-Fi",
-          "Cozy Seating",
-          "Outdoor Terrace"
-        ],
+        "overallRating": 4.4,
+        "rating_text": "Very Good",
         "image_gallery":[
             "https://i.ibb.co/tHxZ6R7/coffee-image.jpg",
             "https://i.ibb.co/hZscsGh/masala-chai-image.jpg",
@@ -165,16 +174,25 @@ db.cafeDetails.insert([
     },
 	  
 	  
-	  
+	
 	{
 		"cafe_id":4,
-		"cafeName": "Java Junction Cafe",
-		"location": "Madhapur, Hyderabad",
+		"cafeName": "Tofeel",
+		"location": "Kondapur ,Hyderabad",
 		"location_id":4,
-		"contactNumber": "+91 9876543210",
+		"Address":"Door No 127/C, C Block, Kondapur, Hyderabad - 500084 (Near Green Valley, Raghavendra Colony)",
+		"website":"https://www.tofeel.co.in/",
+		"Timings" : "Mon - Sun  11:30 am - 10:30 pm",
+		"Type" : "Delivery, Quick Bite Outlet, Coffee Shops, Take Away",
+		"Amenities" : "Wifi Available",
+		"Services" : "Home Delivery, Dine-in, Delivery Service",
+		"Crowd" : "Family Friendly, Group Crowd, Good Place for Kids",
+		"rating" : 4.4,
+		"rating_text" : "Good",
 		"comboPacks": [
 			{
-			  "name": "Morning Bliss Combo",
+			  "comboName": "Morning Bliss Combo",
+			  "combo_id": 1,
 			  "description": "Start your day right with this delightful combo.",
 			  "items": [
 				{
@@ -193,7 +211,8 @@ db.cafeDetails.insert([
 			  "totalPrice": 220
 			},
 			{
-			  "name": "Afternoon Indulgence Combo",
+			  "comboName": "Afternoon Indulgence Combo",
+			  "combo_id":2,
 			  "description": "A perfect combo for a relaxing afternoon break.",
 			  "items": [
 				{
@@ -212,7 +231,8 @@ db.cafeDetails.insert([
 			  "totalPrice": 290
 			},
 			{
-			  "name": "Evening Delight Combo",
+			  "comboName": "Evening Delight Combo",
+			  "combo_id":3,
 			  "description": "Unwind with this delightful evening combo.",
 			  "items": [
 				{
@@ -233,17 +253,27 @@ db.cafeDetails.insert([
 		]
 	},
 		
-		
-		
+				
 	{
 		"cafe_id":5,
-		"cafeName": "Coffee Haven",
-		"location": "Jubilee Hills, Hyderabad",
+		"cafeName": "Cafe Coffee Day",
+		"location": "Begumpet, Hyderabad",
 		"location_id":5,
-		"contactNumber": "+91 7890123456",
+		"Address" : "Lifestyle Building, Begumpet, Hyderabad - 500016 (Opposite Meena Jewellers)",
+		"website" : "https://www.cafecoffeeday.com/",
+		"Services" : "Accepts Sodexo Coupons, Home Delivery",
+		"Amenities" : "Wifi Available",
+		"Seating Type" : "Indoor Seating",
+		"Timings" : "Mon - Sun 10:30 am - 10:00 pm",
+		"Type" : "Cafe, Quick Bite Outlet, Coffee Shops, Take Away",
+    "Must Order" : "Cappuccino",
+    "rating" : 3.8,
+    "rating_text": "Good",
+    "specialOffers" : "50% Off up to 100 + 30 PhonePe cashback / Use code SWIGGYIT, 25% Off up to 125 on orders above 400 + Up to 50 AmazonPay cashback / Use code JUMBO",
 		"comboPacks": [
 			{
 			  "comboName": "Morning Energizer",
+			  "combo_id":4,
 			  "description": "Kickstart your day with this energizing combo.",
 			  "items": [
 				{
@@ -263,6 +293,7 @@ db.cafeDetails.insert([
 			},
 			{
 			  "comboName": "Afternoon Delight",
+			  "combo_id":5,
 			  "description": "A delightful combo to brighten up your afternoon.",
 			  "items": [
 				{
@@ -282,6 +313,7 @@ db.cafeDetails.insert([
 			},
 			{
 			  "comboName": "Evening Relaxation",
+			  "combo_id":6,
 			  "description": "Unwind in the evening with this relaxing combo.",
 			  "items": [
 				{
@@ -301,7 +333,6 @@ db.cafeDetails.insert([
 			}
 		]
 	}
-
 
             
 ])
