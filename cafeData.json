@@ -6,11 +6,11 @@ db.cafeDetails(
       "location": "Himayatnagar, Hyderabad",
       "location_id":1,
       "contactNumber": "+91 88765 12340",
-	  "Address": "H.no 3, 6-195/A, opp. Urdu hall, AP State Housing Board, Himayatnagar, Hyderabad, Telangana 500029",
+	    "Address": "H.no 3, 6-195/A, opp. Urdu hall, AP State Housing Board, Himayatnagar, Hyderabad, Telangana 500029",
       "website": "https://www.swiggy.com/restaurants/brew-haven-cafe-amberpet-circle-no-16-himayath-nagar-hyderabad-774951",
-	  "orderThrough":"swiggy.com",
-	  "Timings" :  "Mon - Sun 10:00 am - 11:30 pm",
-	  "Type" : "Coffee Shops",
+	    "orderThrough":"swiggy.com",
+	    "Timings" :  "Mon - Sun 10:00 am - 11:30 pm",
+	    "Type" : "Coffee Shops",
       "lowCostBeverages": [
          {
             "beverageName": "Classic Chai",
@@ -70,8 +70,8 @@ db.cafeDetails(
       "Reservations": "roasterycoffee.co.in, dineout.co.in",
       "Services" : "Dine-in, Home-Delivery, Delivery Services",
       "Timings" :  "Mon - Sun 8:00 am - 11:45 pm",
-	  "Crowd" : "Family Friendly, Friendly Workspace, Good Place for Kids",
-	  "Amenities" :	"Wheel Chair Accessible Entrance And Exit, Wheel Chair Accessible Washroom, Wifi Available, Vegan Choices Available",
+	    "Crowd" : "Family Friendly, Friendly Workspace, Good Place for Kids",
+	    "Amenities" :	"Wheel Chair Accessible Entrance And Exit, Wheel Chair Accessible Washroom, Wifi Available, Vegan Choices Available",
       "Type" : "Cafe, Coffee Shops, Snack Bar, Take Away",
       "Must Order" : "Chocolate Blend, mutton Lasagna", 
       "lowCostBeverages": [
@@ -129,9 +129,9 @@ db.cafeDetails(
         "location": "Red Hills, Hyderabad",
         "location_id":3,
         "contactNumber": "+(91)-8466868670",
-	    "Address": "Bazaar Ghat Main Road, Red Hills, Hyderabad - 500004",
+	      "Address": "Bazaar Ghat Main Road, Red Hills, Hyderabad - 500004",
         "website": "https://cafeniloufer.com/",
-	    "Timings" :  "Mon - Sun 5:30 am - 1:00 am",	
+	      "Timings" :  "Mon - Sun 5:30 am - 1:00 am",	
         "Type" : "Coffee Shops",
         "lowCostBeverages": [
           {
@@ -180,19 +180,19 @@ db.cafeDetails(
 		"cafeName": "Tofeel",
 		"location": "Kondapur ,Hyderabad",
 		"location_id":4,
-		"Address":"Door No 127/C, C Block, Kondapur, Hyderabad - 500084 (Near Green Valley, Raghavendra Colony)",
+    "Address":"Door No 127/C, C Block, Kondapur, Hyderabad - 500084 (Near Green Valley, Raghavendra Colony)",
 		"website":"https://www.tofeel.co.in/",
 		"Timings" : "Mon - Sun  11:30 am - 10:30 pm",
 		"Type" : "Delivery, Quick Bite Outlet, Coffee Shops, Take Away",
 		"Amenities" : "Wifi Available",
 		"Services" : "Home Delivery, Dine-in, Delivery Service",
 		"Crowd" : "Family Friendly, Group Crowd, Good Place for Kids",
-		"rating" : 4.4,
-		"rating_text" : "Good",
+    "rating" : 4.4,
+    "rating_text" : "Good",
 		"comboPacks": [
 			{
 			  "comboName": "Morning Bliss Combo",
-			  "combo_id": 1,
+        "combo_id": 1,
 			  "description": "Start your day right with this delightful combo.",
 			  "items": [
 				{
@@ -212,7 +212,7 @@ db.cafeDetails(
 			},
 			{
 			  "comboName": "Afternoon Indulgence Combo",
-			  "combo_id":2,
+        "combo_id":2,
 			  "description": "A perfect combo for a relaxing afternoon break.",
 			  "items": [
 				{
@@ -232,7 +232,7 @@ db.cafeDetails(
 			},
 			{
 			  "comboName": "Evening Delight Combo",
-			  "combo_id":3,
+        "combo_id":3,
 			  "description": "Unwind with this delightful evening combo.",
 			  "items": [
 				{
@@ -273,7 +273,7 @@ db.cafeDetails(
 		"comboPacks": [
 			{
 			  "comboName": "Morning Energizer",
-			  "combo_id":4,
+        "combo_id":4,
 			  "description": "Kickstart your day with this energizing combo.",
 			  "items": [
 				{
@@ -293,7 +293,7 @@ db.cafeDetails(
 			},
 			{
 			  "comboName": "Afternoon Delight",
-			  "combo_id":5,
+        "combo_id":5,
 			  "description": "A delightful combo to brighten up your afternoon.",
 			  "items": [
 				{
@@ -313,7 +313,7 @@ db.cafeDetails(
 			},
 			{
 			  "comboName": "Evening Relaxation",
-			  "combo_id":6,
+        "combo_id":6,
 			  "description": "Unwind in the evening with this relaxing combo.",
 			  "items": [
 				{

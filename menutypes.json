@@ -1,0 +1,39 @@
+[
+    {
+        "menutype_id":1,
+        "menu_type":"Chai Varieties"
+    },
+    {
+        "menutype_id":2,
+        "menu_type":"Black Tea"
+    },
+    {
+        "menutype_id":3,
+        "menu_type":"Green Tea" 
+    },
+    {
+        "menutype_id":4,
+        "menu_type":"Herbal and Infusions" 
+    },
+    {
+        "menutype_id":5,
+        "menu_type":"Iced Teas" 
+    },
+    {
+        "menutype_id":6,
+        "menu_type":"Specialty and Fusion Teas" 
+    },
+    {
+        "menutype_id":7,
+        "menu_type":"Milk Alternatives" 
+    },
+    {
+        "menutype_id":8,
+        "menu_type":"Coffee Beverages" 
+    },
+    {
+        "menutype_id":9,
+        "menu_type":"Snacks" 
+    }
+
+]
